@@ -1,0 +1,53 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+temp/
+tmp/
+logs/
+
+# Runtime data
+shopkeer_brain/knowledge/upload/temp_data/
+shopkeer_brain/knowledge/processor/import_process/import_temp_dir/
+blobs/
+
+# Local documents and MinerU outputs
+minerU-test/
+
+# Models and large binaries
+models/
+*.safetensors
+*.ckpt
+*.bin
+*.pt
+*.pth
+*.onnx
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
